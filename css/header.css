@@ -1,0 +1,44 @@
+header{
+	height: 80px;
+	width: 100%;
+	background-color: #000;
+	position: fixed;
+	position: absolute;
+}
+.logo{
+	display: inline-block;
+	width: 121px;
+	font-size: 25px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    display: inline-block;
+	margin-left: 10%;
+	padding-top: 25px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 2px #fff solid;
+}
+@media screen and (max-width: 921px){
+	header{
+		height: 160px;
+	}
+}
+
+.menu{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 10%;
+	margin-top: 30px;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+	color: silver;
+	padding: 5px 10px 5px 10px;
+}
+.menu a:hover{
+	color: #fff;
+	border-bottom: 2px #FFA800 solid;
+	transition: 2s: 
+}

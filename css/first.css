@@ -1,0 +1,49 @@
+.first{
+	background-image: url(../img/1.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+
+	text-align: center;
+}
+.transparent1{
+	height:800px;
+	background: rgba(173, 216, 230, 0.5);
+}
+.first h1{
+	color: #000;
+	font-size: 600%;
+	padding-top: 30%;
+	letter-spacing: 10px;
+	transition-timing-function: 2s;
+}
+@media screen and (max-width: 720px){
+	.first h1{
+		font-size: 400%;
+		padding-top: 60%;
+		letter-spacing: 0px;
+	}
+}
+
+.first p{
+	color: #fff;
+	font-size: 150%;
+	letter-spacing: 4px;
+}
+
+.first button{
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	border: 0px;
+	background-color: #5FC9C8;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+.first button:hover{
+	background-color: #FFA800;
+	transition: .5s;
+	cursor: pointer;
+}

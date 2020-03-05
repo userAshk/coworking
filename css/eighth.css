@@ -1,0 +1,57 @@
+.eighth{
+	width: 100%;
+	height: 500px;
+	background-image: url(../img/geo.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+.eighth h1{
+	font-size: 350%;
+	color: #000;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.eighth p{
+	font-size: 150%;
+	color: #000;
+}
+
+.eighth .overlay{	
+	height: 500px;
+	background: rgba(173, 216, 230, 0.5);
+}
+
+.eighth button{
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	border: 0px;
+	background-color: #5FC9C8;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-top: 20px;
+}
+
+.eighth input[type=mail]{
+	text-align: center;
+	color: #000;
+	margin-top: 20px;
+	background: rgba(255,245,215,.3); 
+	height: 40px;
+	width: 400px; 
+	text-decoration: none;
+	font-size: 20px;
+	border: 1px solid #000;
+
+}
+.eighth button:hover{
+	background-color: #FFA800;
+	transition: .5s;
+	cursor: pointer;
+}
+

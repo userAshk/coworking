@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	width: 100%;
+}
+/*body{
+	margin: 0px;
+	padding: 0px;
+	perspective: 1px;
+	transform-style: preserve-3d;
+	font-family: sans-serif;
+}
+*/

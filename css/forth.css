@@ -1,0 +1,92 @@
+
+
+#images-carousel{
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding: 40px 0px;
+}
+.img-carousel-container{
+	width: 800px;
+	position: relative;
+}
+.img-carousel{
+	display: flex;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	scroll-snap-type: x mandatory;
+	scroll-behavior: smooth;
+	padding-bottom: 5px;
+}
+.img-carousel div{
+	flex: none;
+	scroll-snap-align: start;
+	width: 800px;
+	position: relative;
+}
+.img-carousel div img{
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.img-carousel div p{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+}
+.img-carousel-container button{
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	border: none;
+	background-color: rgba(255, 255, 224, 0.9);
+	color: #000;
+	cursor: pointer;
+	padding: 10px 15px;
+	border-radius: 20%;
+	outline: none;
+	transition: all ease-in-out 0.5s;
+	opacity: 0;
+}
+#prev{
+	left: 10px;
+}
+#next{
+	right: 10px;
+}
+.img-carousel-container:hover button{
+	opacity: 1;
+}
+.img-carousel-container button:hover{
+	background-color: #FAC554;
+}
+/* custom scrollbar */
+
+.img-carousel::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+.img-carousel::-webkit-scrollbar-thumb{
+	background-color: #316529;
+	border-radius: 10px;
+	visibility: hidden;
+}
+
+.img-carousel::-webkit-scrollbar-track{
+	background: transparent;
+}
+.img-carousel-container:hover .img-carousel::-webkit-scrollbar-thumb{
+	visibility: visible;
+}
+@media screen and(max-width: 720px){
+	.img-carousel-container{
+		width: 70%;
+	}.img-carousel div{
+		width: 70%;
+	}
+}

@@ -1,0 +1,28 @@
+.second{
+	background-image: url(../img/2.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 800px;
+
+	text-align: center;
+	display: block;
+}
+
+.text-2{
+	margin-top: 8%;
+	background-color: #fff;
+	display: inline-block;
+	text-align: center;
+	width: 600px;
+	height: 600px;
+}
+.text-2 h1{
+	font-size: 300%;
+	margin: 10%;
+}
+.text-2 p{
+	font-size: 120%;
+	margin: 0% 10% 10% 10%;
+}
+
